@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://e083-2409-4081-dcb-7da7-320a-b946-1cd3-5cac.ngrok-free.app/';
-
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://f60c-2409-408c-bebe-6bf0-254a-111e-512a-7d70.ngrok-free.app';
 const api = axios.create({
   baseURL: API_BASE_URL,
   timeout: 30000,
